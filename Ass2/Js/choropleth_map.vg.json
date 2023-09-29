@@ -10,7 +10,7 @@
   },
   "transform": [
     {
-      "lookup": "NAME",
+      "lookup": "properties.NAME",
       "from": {
         "data": {
           "url": "../data/Countries_sleep_time.csv"
