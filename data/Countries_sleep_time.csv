@@ -2,6 +2,7 @@ Country,Category,Minutes
 Australia,Sleep,512
 Austria,Sleep,498
 Belgium,Sleep,513
+Brazil,Sleep,462
 Canada,Sleep,520
 Denmark,Sleep,489
 Estonia,Sleep,530
@@ -17,13 +18,20 @@ Korea,Sleep,471
 Latvia,Sleep,512
 Lithuania,Sleep,503
 Luxembourg,Sleep,518
+Malaysia,Sleep,384
 Mexico,Sleep,499
 Netherlands,Sleep,503
 New Zealand,Sleep,526
 Norway,Sleep,492
+Pakistan,Sleep,390
+Philippines,Sleep,390
 Poland,Sleep,509
 Portugal,Sleep,506
+Russia,Sleep,502
+Saudi Arabia,Sleep,384
+Singapore,Sleep414
 Slovenia,Sleep,501
+South Korea,Sleep,434
 Spain,Sleep,516
 Sweden,Sleep,483
 Turkey,Sleep,515
@@ -31,4 +39,6 @@ United Kingdom,Sleep,508
 United States of America,Sleep,528
 China,Sleep,542
 India,Sleep,528
+Indonesia,Sleep,396
 South Africa,Sleep,553
+Vietnam,Sleep,420
