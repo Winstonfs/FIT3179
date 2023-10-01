@@ -1,4 +1,4 @@
-﻿Country,Category,Minutes
+Country,Category,Minutes
 Australia,Sleep,512
 Austria,Sleep,498
 Belgium,Sleep,513
@@ -27,8 +27,8 @@ Slovenia,Sleep,501
 Spain,Sleep,516
 Sweden,Sleep,483
 Turkey,Sleep,515
-UK,Sleep,508
-USA,Sleep,528
+United Kingdom,Sleep,508
+North America,Sleep,528
 China,Sleep,542
 India,Sleep,528
 South Africa,Sleep,553
