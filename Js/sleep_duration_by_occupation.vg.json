@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "https://raw.githubusercontent.com/Winstonfs/FIT3179/main/data/Sleep_health_and_lifestyle_dataset.csv"},
+  "transform": [
+  ],
+  "mark": "bar",
+  "width": {"step": 20},
+  "encoding": {
+
+    "y": {
+      "aggregate": "mean", 
+      "field": "Sleep Duration",
+      "title": "Sleep"
+      
+    },
+    "x": {"field": "Occupation","axis": {"labelAngle": -40}},
+    "color": {
+      "field": "Gender",
+      "scale": {"range": ["#ca8861", "#7393B3"]}
+    }
+  }
+}

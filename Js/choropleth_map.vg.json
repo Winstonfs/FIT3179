@@ -3,7 +3,36 @@
   "title": "Total Sleep in Countries",
   "width": 800,
   "height": 400,
-  "projection": {"type": "equalEarth"},
+  "params": [{
+    "name": "zoom_level",
+    "value": 150,
+    "bind": {
+    "input": "range",
+    "min": 150,
+    "max": 1000,
+    "step": 50,
+    "name": "Zoom: "
+    }
+    },{
+      "name": "center_to",
+      "value": [null, null],
+      "bind": {
+      "input": "select",
+      "options": [[null, null],
+      [	133.775136, -25.274398],
+      [101.693207, 3.140853],
+      [ -98, 39],
+      [-0.118092,51.509865],
+      [82.5,21.5],
+      [105,35],
+      [37.618423,55.751244]
+      ],
+      "labels": ["World","Australia", "Malaysia", "USA", "UK", "India", "China", "Russia"],
+      "name": "Map Center: "
+      }}],
+  "projection": {"type": "equalEarth",
+    "center": {"expr": "center_to"},
+    "scale": {"expr": "zoom_level"}},
   "layer": [
     {
       "data": {
