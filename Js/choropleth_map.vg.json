@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Sleep in Countries",
-  "width": 800,
+  "width": 1200,
   "height": 400,
   "params": [{
     "name": "zoom_level",

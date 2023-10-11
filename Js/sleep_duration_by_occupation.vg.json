@@ -1,10 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": { "url": "https://raw.githubusercontent.com/Winstonfs/FIT3179/main/data/Sleep_health_and_lifestyle_dataset.csv"},
+  "width": 200,
+  "height": 200,
   "transform": [
   ],
   "mark": "bar",
-  "width": {"step": 20},
+  
   "encoding": {
 
     "y": {
