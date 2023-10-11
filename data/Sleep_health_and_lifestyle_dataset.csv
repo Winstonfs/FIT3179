@@ -1,4 +1,4 @@
-Person ID,Gender,Age,Occupation,Sleep,Quality of Sleep
+Person ID,Gender,Age,Occupation,Sleep Duration,Quality of Sleep
 1,Male,20,Software Engineer,6.1,6
 2,Male,20,Doctor,6.2,6
 3,Male,20,Doctor,6.2,6
