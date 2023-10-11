@@ -24,6 +24,9 @@
 <div id="choropleth_map"></div>
 <p></p>
 <div id="sleep_by_countries"></div>
+<div id="avg_sleep"></div>
+<div id="age_sleep"></div>
+<div id="sleep_duration_by_occupation"></div>
 
 <script type="text/javascript">
 
@@ -34,6 +37,21 @@
 
   var spec2 = "Js/sleep_by_countries.vg.json";
   vegaEmbed('#sleep_by_countries', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var spec2 = "Js/age_sleep.vg.json";
+  vegaEmbed('#age_sleep', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var spec2 = "Js/avg_sleep.vg.json";
+  vegaEmbed('#avg_sleep', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var spec2 = "Js/sleep_duration_by_occupation.vg.json";
+  vegaEmbed('#sleep_duration_by_occupation', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>

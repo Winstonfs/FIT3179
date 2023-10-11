@@ -1,13 +1,34 @@
 #choropleth_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
+	top:30px;
+	bottom: 20px; 
+	left: 300px;
 	right: 100px;
 
 }
 
 #sleep_by_countries {
 	top:100px;
+	bottom: 100px; 
+	left: 50px;
+	right: 100px;
+}
+
+#age_sleep {
+	top:20px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+}
+
+#avg_sleep {
+	top:20px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+}
+
+#sleep_duration_by_occupation {
+	top:70px;
 	bottom: 100px; 
 	left: 100px;
 	right: 100px;
