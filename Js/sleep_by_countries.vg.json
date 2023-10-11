@@ -12,7 +12,7 @@
       "input": "select",
       "options": [0,1],
       "labels": ["Most", "Least"],
-      "name": "Top Selection"
+      "name": "Selection: "
       }},
       {"name": "sortBy",
       "expr":"top_selection===0 ? 'descending':'ascending'"}],
