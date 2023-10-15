@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Hours of Sleep on Average",
     "title": "Hours of Sleep on Average",
-    "width": 200,
-    "height": 200,
+    "width": 300,
+    "height": 300,
     "layer": [{"mark": {"type": "arc", "innerRadius": 50, "outerRadius": 80},
     "encoding": {
       "theta": {"field": "value", "type": "quantitative"},
