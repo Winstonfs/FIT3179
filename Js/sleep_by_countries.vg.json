@@ -3,8 +3,8 @@
     "description": "Bar Chart with a spacing-saving y-axis",
     "title": {"text": "Top 10 Countries with Most and Least Sleep"},
     "data": {"url": "https://raw.githubusercontent.com/Winstonfs/FIT3179/main/data/Countries_sleep_time.csv"},
-    "height": 300,
-    "width": 300,
+    "height": 200,
+    "width": 200,
     "params": [{
       "name": "top_selection",
       "value": 0,
@@ -59,8 +59,8 @@
     "type": "text",
       "align": "left",
       "baseline": "middle",
-      "dx": 130,
-      "dy": -135
+      "dx": 80,
+      "dy": -90
     },
     "encoding": {
     "text": {"field": "Minutes", "type": "quantitative"},

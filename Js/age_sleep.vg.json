@@ -1,18 +1,21 @@
-
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": { "url": "https://raw.githubusercontent.com/Winstonfs/FIT3179/main/data/Sleep_health_and_lifestyle_dataset.csv"},
-  "width": 300,
-  "height": 300,
-  "mark": "rect",
-  "encoding": {
-    "y": {"field": "Quality of Sleep", "sort":"descending", "type": "nominal"},
-    "x": {"field": "Age", "type": "ordinal", "axis": {"labelAngle": -0}},
-    "color": {"aggregate": "mean", "field": "Sleep Duration"},
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A bar chart showing the US population distribution of age groups in 2000.",
+    
+    "width": 200,
+    "height": 200,
+    "layer": [{"data": { "url": "https://raw.githubusercontent.com/Winstonfs/FIT3179/main/data/Sleep_health_and_lifestyle_dataset.csv"},"mark": {
+        "type": "bar",
+        "clip": true
+      },
+    "encoding": {
+    "x": { "aggregate": "mean","field": "Sleep Duration", "scale": {
+        "domainMin": 7, "domainMax": 9}},
+    "y": {"field": "Age", "sort": "descending"},
+
     "tooltip": [
-      {"field": "Sleep Duration", "type": "quantitative", "format": ","}]
-  },
-  "config": {
-    "axis": {"grid": true, "tickBand": "extent"}
+    {"field": "Sleep Duration", "type": "quantitative", "format": ","}]
+    }}]
+    
   }
-}
+  
