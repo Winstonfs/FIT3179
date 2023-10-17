@@ -1,24 +1,19 @@
+
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": { "url": "https://raw.githubusercontent.com/Winstonfs/FIT3179/main/data/Sleep_health_and_lifestyle_dataset.csv"},
-  "width": 200,
-  "height": 200,
-  "transform": [
-  ],
+  "data": {"url": "https://raw.githubusercontent.com/Winstonfs/FIT3179/main/data/Sleep_health_and_lifestyle_dataset.csv"},
+  "width": 300,
+  "height": 300,
   "mark": "bar",
-  
+  "transform": [{"filter": "datum.Occupation != 'Manager' && datum.Occupation != 'Nurse' && datum.Occupation != 'Salesperson' && datum.Occupation != 'Software Engineer' && datum.Occupation != 'Sales Representative' && datum.Occupation != 'Scientist' "}],
   "encoding": {
-
-    "y": {
-      "aggregate": "mean", 
-      "field": "Sleep Duration",
-      "title": "Sleep"
-      
-    },
-    "x": {"field": "Occupation","axis": {"labelAngle": -40}},
-    "color": {
-      "field": "Gender",
-      "scale": {"range": ["#ca8861", "#7393B3"]}
-    }
+    "x": {"field": "Occupation","axis": {"labelAngle": -30}},
+    "y": {"aggregate": "mean", 
+    "field": "Sleep Duration",
+    "title": "Amount of Sleep"},
+    "xOffset": {"field": "Gender"},
+    "color": {"field": "Gender","scale": {"range": ["#FFC7EA", "#5272F2"]}, "legend": null},
+    "tooltip": [
+      {"field": "Sleep Duration", "type": "quantitative", "format": ","}]
   }
 }

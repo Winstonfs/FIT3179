@@ -2,23 +2,19 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Hours of Sleep on Average",
     "title": "Hours of Sleep on Average",
-    "width": 200,
-    "height": 200,
-    "layer": [{"mark": {"type": "arc", "innerRadius": 50, "outerRadius": 80},
+    "width": 300,
+    "height": 300,
+    "layer": [{"mark": {"type": "arc", "innerRadius": 100, "outerRadius": 130},
     "encoding": {
       "theta": {"field": "value", "type": "quantitative"},
       "color": {"field": "category", "type": "nominal", "legend": null, "scale": {"range": {"field": "color"}}},
       "order": {"field": "value", "type": "quantitative", "sort": "descending"},
       "tooltip": [
-        {"field": "category", "type": "nominal", "title": "Type"},
         {"field": "value", "type": "quantitative", "title": "Hours"}
       ]
-    }}, {"mark": "text",
+    }}, {"mark":{"type": "text", "fontSize": 20},
     "encoding": {
-      "text": {"value": "6.8 Hours"},
-      "color": {
-
-      }
+      "text": {"value": "6.8 Hours"}
     }}],
     "data": {
       "values": [

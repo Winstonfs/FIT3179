@@ -1,6 +1,5 @@
 #choropleth_map {
-	top:30px;
-	bottom: 20px; 
+	padding-left: 165px;
 	left: 100px;
 	right: 100px;
 
@@ -10,26 +9,26 @@
 	top:20px;
 	bottom: 100px; 
 	left: 50px;
-	right: 100px;
-}
 
-#age_sleep {
-	top:0px;
-	bottom: 100px; 
-	left: 50px;
-	right: 100px;
 }
 
 #avg_sleep {
-	top:0px;
+	top:20px;
+	bottom: 100px; 
+	left: 100px;
+	padding-left: 100px;
+}
+
+#age_sleep {
+	top:40px;
 	bottom: 100px; 
 	left: 50px;
-	right: 100px;
+	
 }
 
 #sleep_duration_by_occupation {
 	top:40px;
 	bottom: 100px; 
-	left: 50px;
-	right: 100px;
+	left: 100px;
+	padding-left: 80px;
 }
