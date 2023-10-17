@@ -26,6 +26,7 @@ img {
 }
 
 #text_div1 {
+  font-family: 'Open Sans';
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
@@ -35,6 +36,7 @@ img {
 }
 
 #text_div2 {
+  font-family: 'Open Sans';
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
